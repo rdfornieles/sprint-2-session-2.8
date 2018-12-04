@@ -6,7 +6,6 @@ const wink = document.querySelector(".face");
 
 function handleFaceClick () {
     wink.innerHTML = ";)";
-
 }
 
 function handleFaceHover () {
