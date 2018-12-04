@@ -9,4 +9,10 @@ function handleFaceClick () {
 
 }
 
+function handleFaceHover () {
+    wink.innerHTML = ":)";
+}
+    
+
 face.addEventListener("click", handleFaceClick);
+face.addEventListener("mouseout", handleFaceHover);
